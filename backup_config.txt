@@ -1,0 +1,1 @@
+/home/nikchester/bookstack s3://backup-storage1/bookstack/ true
