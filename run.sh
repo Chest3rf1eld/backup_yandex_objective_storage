@@ -23,7 +23,7 @@ while read -r SOURCE_DIR S3_BUCKET ARCHIVE_FLAG; do
     if [ "$ARCHIVE_FLAG" == "true" ]; then
       # Создаем архив
       ARCHIVE_NAME="$(basename "$SOURCE_DIR")-$(date +'%Y-%m-%d').tar"
-      ARCHIVE_PATH="/home/nikchester/tmp/$ARCHIVE_NAME"
+      ARCHIVE_PATH="./tmp/$ARCHIVE_NAME"
       
       log_message "Archiving $SOURCE_DIR to $ARCHIVE_PATH..."
       tar -cf "$ARCHIVE_PATH" -C "$SOURCE_DIR" .

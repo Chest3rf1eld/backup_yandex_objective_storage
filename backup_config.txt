@@ -1,1 +1,2 @@
-/home/nikchester/bookstack s3://backup-storage1/bookstack/ true
+/home/nikchester/bookstack s3://arknaz-prod-1/bookstack/ true
+/home/nikchester/monitoring-system s3://arknaz-prod-1/monitoring-system/ true
