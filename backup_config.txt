@@ -1,2 +1,3 @@
 /home/nikchester/bookstack s3://arknaz-prod-1/bookstack/ true
 /home/nikchester/monitoring-system s3://arknaz-prod-1/monitoring-system/ true
+/home/nikchester/homer_arknaz_theme_v2 s3://arknaz-prod-1/arknaz-dashboard/ true
